@@ -1,0 +1,53 @@
+.brand-image {
+  width: 45px;
+}
+
+.h2, h2{
+    font-weight: 350;
+}
+
+.h3, h3{
+    font-weight: 200;
+}
+
+.h4, h4{
+    font-weight: 300;
+}
+
+.h5, h5{
+    font-weight: 300;
+}
+
+.h6, h6{
+    font-weight: 300;
+}
+
+.display-4{
+    font-weight: 450;
+}
+
+.flush-list{
+    list-style-position: inside;
+}
+
+.aligncenter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.alignleft{
+    float: left;
+    margin-right: 1rem;
+    margin-top: 0 !important;
+}
+
+.alignright{
+    float: right;
+    margin-left: 1rem;
+    margin-top: 0 !important;
+}
+
+.img-round{
+    border-radius: 50%;
+}
