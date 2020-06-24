@@ -3,8 +3,6 @@
 <div class="container mb-4">
     <h1 class="display-4 text-center"><?php the_title();?></h1>
 
-    <?php get_template_part('includes/section', 'content');?>
-    <hr class="mt-4">
     <?php
         $args = array( 'numberposts' => '1');
         $recent_posts = wp_get_recent_posts( $args );
@@ -24,9 +22,7 @@
     </div>
     <?php endforeach;?>
     <?php endif;?>
-
-
-
+    <?php get_template_part('includes/section', 'content');?>
 </div>
 
 <?php get_footer();?>
