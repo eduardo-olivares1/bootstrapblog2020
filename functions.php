@@ -68,7 +68,7 @@ add_filter('the_content', 'remove_image_wrapper');
 
 //Find any image classes in content and add bootstrap responsive image classes
 function force_responsive_img($content){
-    return preg_replace('/t/iU', 'test', $content);
+    return preg_replace('/(<img.*class="[\w\s\-*]*)(".*>)/iU', '$1 img-fluid my-3 $2', $content);
 }
 
 add_filter('the_content', 'force_responsive_img');
